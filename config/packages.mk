@@ -2,7 +2,7 @@
 PRODUCT_PACKAGES += \
     Turbo
 
-# Overlays
+# Accents
 PRODUCT_PACKAGES += \
     AmberAccent \
     BlackAccent \
@@ -12,8 +12,6 @@ PRODUCT_PACKAGES += \
     CyanAccent \
     DeepOrangeAccent \
     DeepPurpleAccent \
-    DuiDark \
-    GBoardDark \
     GreenAccent \
     GreyAccent \
     IndigoAccent \
@@ -24,8 +22,6 @@ PRODUCT_PACKAGES += \
     PinkAccent \
     PurpleAccent \
     RedAccent \
-    SettingsDark \
-    SystemDark \
     TealAccent \
     YellowAccent \
     WhiteAccent
@@ -33,6 +29,22 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     DU-Fonts
+
+# Dark Theme
+PRODUCT_PACKAGES += \
+    DuiDark \
+    GBoardDark \
+    SettingsDark \
+    SystemDark \
+    UpdaterDark \
+
+# BlackAF Theme
+PRODUCT_PACKAGES += \
+    DuiBlackAF \
+    GBoardBlackAF \
+    SettingsBlackAF \
+    SystemBlackAF \
+    UpdaterBlackAF \
 
 # Extra tools
 PRODUCT_PACKAGES += \
