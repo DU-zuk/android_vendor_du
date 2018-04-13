@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
 # Charging sounds
 PRODUCT_COPY_FILES += \
     vendor/du/google/effects/BatteryPlugged.ogg:system/media/audio/ui/BatteryPlugged.ogg \
-    vendor/du/google/effects/BatteryPlugged_48k.ogg:system/media/audio/ui/BatteryPlugged_48k.ogg
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
